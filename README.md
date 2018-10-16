@@ -1,4 +1,4 @@
-# Title
+# Task - Assignment of Request Logs to POIs Based on Geographical Location
 
 # Introduction
 This task requires us to use a sample dataset of request logs, which contain the geographic locations of the requests and several POIs. The process involves cleaning the dataset by filtering out duplicate requests; assigning these requests to a POI and finding the distances between them; using descriptive statistics to analyze these distances; and to visualize the requests and their respective POIs.
