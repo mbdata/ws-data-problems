@@ -1,4 +1,4 @@
-# Task - Assignment of Request Logs to POIs Based on Geographical Location
+# Task: Assignment of Request Logs to POIs Based on Geographical Location
 
 # Introduction
 This task requires us to use a sample dataset of request logs, which contain the geographic locations of the requests and several POIs. The process involves cleaning the dataset by filtering out duplicate requests; assigning these requests to a POI and finding the distances between them; using descriptive statistics to analyze these distances; and to visualize the requests and their respective POIs.
@@ -17,10 +17,3 @@ This task requires us to use a sample dataset of request logs, which contain the
 1. Assigning requests to POIs by calculating the distances to all POIs and finding the closest one, by using brute force, is not feasible, even in a Spark environment.
 2. Clustering with K-Means, using POIs as starting points, could be a potentially good solution in cases when many POIs are provided.
 3. In cases like the one presented in this task, when POIs are centers of distinct geographical locations (cities or provinces), the most efficient solution would be to assign the requests to POIs belonging to the same geographical location, and then to calculate the distances to the assigned POI. This would significantly reduce the amount of irrelevant calculations.
-
-
-# Cleanup and Labeling
-Here is the result of the [cleanup and labeling](http://htmlpreview.github.com/?https://github.com/mbdata/ws-data-problems/blob/master/notebooks/EQ%20Works%20Challenge%20-%20Spark%20Jobs.html).
-
-# Analysis and Modeling
-The [analysis and modeling](http://htmlpreview.github.com/?https://github.com/mbdata/ws-data-problems/blob/master/notebooks/technical_challenge_preliminary_research.html).
